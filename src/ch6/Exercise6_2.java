@@ -1,3 +1,5 @@
+package ch6;
+
 class Exercise6_2 {
     public static void main(String args[]) {
         SutdaCard card1 = new SutdaCard(3, false);
@@ -15,7 +17,7 @@ class SutdaCard {
 
     }
 
-    SutdaCard(int num, boolean isKwang) {
+    public SutdaCard(int num, boolean isKwang) {
         this.num = num;
         this.isKwang = isKwang;
     }

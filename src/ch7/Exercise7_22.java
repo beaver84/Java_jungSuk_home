@@ -1,3 +1,5 @@
+package ch7;
+
 abstract class Shape {
     Point p;
     Shape() {

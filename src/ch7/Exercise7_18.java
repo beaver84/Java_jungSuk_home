@@ -1,3 +1,5 @@
+package ch7;
+
 class Exercise7_18 {
 
     static void action(Robot r) {

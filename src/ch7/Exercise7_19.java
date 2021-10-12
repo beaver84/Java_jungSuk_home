@@ -1,3 +1,5 @@
+package ch7;
+
 class Exercise7_19 {
     public static void main(String args[]) {
         Buyer b = new Buyer();

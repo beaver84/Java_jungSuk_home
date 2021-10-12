@@ -1,4 +1,4 @@
-import java.nio.channels.Channel;
+package ch7;
 
 class MyTv2 {
     boolean isPowerOn;

@@ -1,3 +1,5 @@
+package ch7;
+
 class Exercise7_20 {
     public static void main(String[] args) {
         Parent p = new Child();

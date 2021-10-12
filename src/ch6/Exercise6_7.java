@@ -1,3 +1,5 @@
+package ch6;
+
 class MyPoint {
     int x; // 인스턴스 변수
     int y; // 인스턴스 변수
