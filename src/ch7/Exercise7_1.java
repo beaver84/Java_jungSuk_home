@@ -50,12 +50,22 @@ class SutdaCard {
 class Exercise7_1 {
     public static void main(String args[]) {
         SutdaDeck deck = new SutdaDeck();
-        System.out.println(deck.pick(0));
-        System.out.println(deck.pick());
-        deck.shuffle();
-        for(int i=0; i < deck.cards.length;i++)
-            System.out.print(deck.cards[i]+",");
+        System.out.println("----섞기 전 전체 카드 차례대로----");
+        for(int i=0; i < deck.cards.length;i++) {
+            System.out.print(deck.cards[i] + ",");
+        }
         System.out.println();
+        System.out.println("----섞기 전 첫번째 카드 뽑은 결과----");
+        System.out.println(deck.pick(0));
+        System.out.println("----섞기 전 아무 카드나 뽑은 결과----");
+        System.out.println(deck.pick());
+        System.out.println("----섞은 후 전체 카드 차례대로----");
+        deck.shuffle();
+        for(int i=0; i < deck.cards.length;i++) {
+            System.out.print(deck.cards[i] + ",");
+        }
+        System.out.println();
+        System.out.println("----섞은 후 첫번째 카드 뽑은 결과----");
         System.out.println(deck.pick(0));
     }
 }
